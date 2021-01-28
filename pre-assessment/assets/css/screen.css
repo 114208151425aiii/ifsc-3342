@@ -1,0 +1,109 @@
+/* the first rule uses the asterisk to select all elements and 
+sets all 4 margins to 0 and
+sets all 4 paddings to 0
+margin is outside the border of the element and padding is inside the border*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #171717;
+	background-image:url('../img/bg-tile.jpg');
+	background-repeat: repeat-x;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+#container {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	background-color: #FFF;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+}
+#header {
+}
+#header h1 a {
+	background-image:url('../img/angry.jpg');
+	display:block;
+	height:140px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#nav {
+	background-color: #000;
+}
+#nav ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+#nav ul li {
+	display: inline;
+	height: 35px;
+	line-height: 35px;
+}
+#nav ul li a {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	color: #FFF;
+}
+#nav ul li a:hover {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#content {
+	margin: 20px;
+}
+#content h2{
+	color:#D78724;
+}
+#content h3{
+	border-bottom:10px solid #025750;
+	border-top:10px solid #025750;
+	border-right:10px solid #025750;
+}
+#content h4{
+	background-color: #020123;
+	color:#e81f27;
+}
+#content p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#content a:hover{
+	background:violet;
+}
+#footer {
+	background-color: #000;
+	color: #FFF;
+	height: 25px;
+}
+#footer h6 {
+	font-size: 12px;
+	line-height: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.alert{
+	background:#999;
+	color:#fff;
+}
+.float-right{
+	float:right;
+	border:5px solid #A128A6;
+	padding:5px;
+	margin:5px 0px 5px 10px;
+}
