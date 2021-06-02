@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="en"> <!-- look up no-js on docs-->
+
+<head>
+  <meta charset="utf-8">
+  <title>chelsea resume</title>
+  <meta name="description" content="chelsea resume">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="chelsea resume">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://114208151425aiii.github.io/ifsc-3342/resume">
+  <meta property="og:image" content="img/chelsearp.jpg"> 
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->  <!-- wtf is this-->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+    <header>
+    <!-- Main navigation -->
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main itemscope itemtype="http://schema.org/Person">
+    <h1>chelsea saunders</h1>
+    <section id="about">
+      <h2>Personal details</h2>
+      <img itemprop="image" src="img/chelsearp.jpg" alt="chelsea saunders">
+      <p itemprop="description">i intend to learn something</p> <!--what is this-->
+      <dl>
+        <dt>Name</dt>
+        <dd itemprop="name">
+          <span itemprop="givenName">chelsea</span> <span itemprop="familyName">saunders</span>
+        </dd>
+        <dt>Date of birth</dt>
+        <dd itemprop="birthDate"><time datetime="1994-09-13">9-13-94</time></dd>
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">usa</dd>
+        <dt>Location</dt>
+        <dd itemprop="homeLocation">ar</dd>
+        <dt>Telephone</dt>
+        <dd>
+          <a itemprop="telephone" href="tel:555.234.5678">555 234 5678</a>
+        </dd>
+        <dt>Email</dt>
+        <dd>
+          <a itemprop="email" href="mailto:cmsaunders@ualr.edu">cmsaunders@ualr.edu</a>
+        </dd>
+        <dt>Address</dt>
+
+        <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">2801 South University</span>
+          <span itemprop="addressLocality">Little Rock</span>
+          <span itemprop="postalCode">72204</span>
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+
+      </dl>
+      <ul class="related-links">
+        <li><a itemprop="url" rel="me" href="https://github.com/114208151425aiii">github</a></li>
+        <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/chelsea-saunders-9a389994/">linkedin</a></li>
+        <li><a itemprop="url" href="resume.pdf" download>pdf resume</a></li> <!--how does this work?-->
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">reading</li>
+        <li class="skill">writing</li>
+        <li class="skill">speaking</li>
+        <li class="skill">listening</li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- current job -->
+      <article class="job">
+        <h3 itemprop="jobTitle">Tutor</h3>
+        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <span itemprop="name">UALR MAC</span>
+          <span>January 2020 - Present</span>
+          <p itemprop="description">i explain math to people, and sometimes other things</p>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <a itemprop="url" href="https://ualr.edu/mathematics/online-schedules">ualr.edu</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">AR,USA</span>
+          </span>
+          </span>
+        </div>
+      </article>
+      <!-- Previous Jobs - Notice Slightly Different Format-->
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">student worker</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">children international</span>
+          <a itemprop="url" href="https://ualr.edu/children/">https://ualr.edu/children/</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">AR,USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2018-01-21T20:00">January 2018</span>
+          <span itemprop="endDate" content="2018-04-21T20:00">April 2018</span>
+        <p itemprop="description">CI participant survey</p>
+      </article>
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Substitute Teacher</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">Aberg Center for Literacy</span>
+          <a itemprop="url" href="https://www.aspiretolearn.org/">https://www.aspiretolearn.org/</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">TX, USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2014-03-21T20:00">March 2014</span>
+          <span itemprop="endDate" content="2014-03-21T20:00">March 2014</span>
+        <p itemprop="description">i watched 3- and 4-year-olds play with legos.</p>
+      </article>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="Associate of Science">AS</abbr>Computer Programming</h3>
+          <span itemprop="name">University of Arkansas at Little Rock</span>
+          <span itemprop="location" itemscope>AR, USA</span>
+          <span>2014</span>
+      </article>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div id="copyright">
+      &copy; company. All rights reserved.
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. --> <!-- why does it say not defined?-->
+  <script> 
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
