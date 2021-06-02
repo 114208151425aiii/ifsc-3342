@@ -16,16 +16,17 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->  <!-- wtf is this-->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <!--<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/practice.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-
   <!-- Add your site or application content here -->
-    <header>
+    <header class="container">
     <!-- Main navigation -->
     <nav class="primary">
       <a href="#about">About</a>
@@ -35,10 +36,10 @@
     </nav>
   </header>
   <!-- Main -->
-  <main itemscope itemtype="http://schema.org/Person">
+  <main class="container" itemscope itemtype="http://schema.org/Person">
     <h1>chelsea saunders</h1>
     <section id="about">
-      <h2>Personal details</h2>
+      <h2 class="visuallyhidden">Personal details</h2>
       <img itemprop="image" src="img/chelsearp.jpg" alt="chelsea saunders">
       <p itemprop="description">i intend to learn something</p> <!--what is this-->
       <dl>
@@ -141,7 +142,7 @@
     </section>
   </main>
   <!-- Footer -->
-  <footer>
+  <footer class="container">
     <div id="copyright">
       &copy; company. All rights reserved.
     </div>
