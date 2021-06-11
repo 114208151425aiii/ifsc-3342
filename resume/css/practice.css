@@ -62,7 +62,7 @@ nav a:visited {
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  color: #222222;
+  /*color: #222222;*/
   text-transform: uppercase;
   font-size: 0.75em;
   background: rgba(0, 0, 0, 0.65);
@@ -136,7 +136,7 @@ dd{
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  color: #222222;
+  /*color: #222222;*/
   text-transform: uppercase;
   font-size: 0.75em;
   background: rgba(0, 0, 0, 0.65);
